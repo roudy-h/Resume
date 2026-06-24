@@ -1,0 +1,226 @@
+\documentclass[letterpaper,10pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+\usepackage{ragged2e}
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+% \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+%   \textbf{\href{http://sourabhbajaj.com/}{\Large Sourabh Bajaj}} & Email : \href{mailto:sourabh@sourabhbajaj.com}{sourabh@sourabhbajaj.com}\\
+%   \href{http://sourabhbajaj.com/}{http://www.sourabhbajaj.com} & Mobile : +1-123-456-7890 \\
+% \end{tabular*}
+
+\begin{center}
+    \textbf{\Huge \scshape Roudy Hajo} \\ \vspace{1pt}
+    \small +33 7 67 42 56 59 $|$ \href{mailto:roudy.hajo2003@gmail.com}{\underline{roudy.hajo2003@gmail.com}} $|$ 
+    \href{https://www.linkedin.com/in/roudy-hajo/}{\underline{linkedin.com/in/roudy-hajo}} $|$
+    \href{https://github.com/roudy-h}{\underline{github.com/roudy-h}}
+\end{center}
+
+% texte en justifié
+\begin{justify}
+    Final year Computer Science student at Polytech Nantes School of Engineering with a passion for software development, network and cloud computing. Experienced in developing full-stack web applications, REST APIs, and conducting research in Database Systems. Strong problem-solving skills and a proven track record of delivering high-quality projects.
+\end{justify}
+
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Polytech Nantes School of Engineering}{Nantes, France}
+      {Master's Degree in Computer Science specialization in Network, Security, Cloud Computing}{Sep. 2024 -- Aug 2027}
+    \resumeSubheading
+      {University Institute of Technology of Nantes}{Nantes, France}
+      {Technical Associate’s Degree in Computer Science}{Sep. 2022 -- Jun 2024}
+  \resumeSubHeadingListEnd
+
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Research Intern in Database Systems}{May 2026 -- Aug 2026}
+      {Coimbra Institute of Engineering}{Coimbra, Portugal}
+      \resumeItemListStart
+        \resumeItem{Designed a decentralized multi-agent architecture utilizing Quantum Neural Networks (QNN) and reinforcement learning to optimize database index tuning.}
+        \resumeItem{Engineered an adaptive centralized learning router to eliminate workload skew and dynamically balance queries across replicas.}
+      \resumeItemListEnd
+        
+    \resumeSubheading
+      {Web Developer Intern}{May 2025 -- July 2025}
+      {Nantes University -- Digital and Information Systems Department (DSIN)}{Nantes, France}
+      \resumeItemListStart
+        \resumeItem{Updated and adapted the Symfony web application 'Syllabus' to dynamically present the university's course offerings to students.}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Web Developer Intern}{Apr 2024 -- June 2024}
+      {Kookline -- Web Development Agency}{Nantes, France}
+      \resumeItemListStart
+        \resumeItem{Developed a responsive website using the WordPress Content Management System (CMS) for skydiving reservations and online services.}
+    \resumeItemListEnd
+
+    \resumeSubheading
+      {Academic Tutor}{Oct 2023 -- July 2024}
+      {University Institute of Technology of Nantes}{Nantes, France}
+      \resumeItemListStart
+        \resumeItem{Mentored and guided first-year students in fundamental computer science courses, focusing on algorithms, core programming principles, and mathematics.}
+      \resumeItemListEnd
+  \resumeSubHeadingListEnd
+
+
+%-----------PROJECTS-----------
+\section{Projects}
+  \resumeSubHeadingListStart
+    \resumeProjectHeading
+      {\textbf{\href{https://github.com/roudy-h/todo-api}{TODO App}} $|$ \emph{Spring Boot, Java, Maven, Angular}}{Oct 2025 -- June 2026}
+        \resumeItemListStart
+          \resumeItem{Developed a responsive full-stack task management web application supporting secure CRUD operations.}
+          \resumeItem{Implemented dynamic client-side routing with Angular and engineered reactive RESTful APIs with Spring Boot.}
+        \resumeItemListEnd
+
+    \resumeProjectHeading
+      {\textbf{\href{https://oniris-polytech.univ-nantes.io/sketchoscent/}{SketchOscent}} $|$ \emph{HTML/CSS, JavaScript, jQuery, Webpack, Python, RDKit, PubChem}}{Sep 2025 -- May 2026}
+        \resumeItemListStart
+          \resumeItem{Enhanced a cheminformatics web application to model chemical odors as graphs and visualize molecular data.}
+          \resumeItem{Calculated and mapped chemical functional groups to specific scent profiles using Python, RDKit, and PubChem.}
+          \resumeItem{Integrated an automated code obfuscation pipeline into Webpack to effectively secure intellectual property.}
+        \resumeItemListEnd
+
+    \resumeProjectHeading
+      {\textbf{\href{https://github.com/roudy-h/dicewars}{Dice Wars}} $|$ \emph{C++}}{Nov 2025 -- Jan 2026}
+        \resumeItemListStart
+          \resumeItem{Engineered a turn-based strategy game featuring heuristic-driven AI opponents and a procedural map generation system.}
+        \resumeItemListEnd
+
+    \resumeProjectHeading
+      {\textbf{PolyRisk} $|$ \emph{Python}}{Oct 2025 -- Nov 2025}
+        \resumeItemListStart
+          \resumeItem{Developed intelligent AI agents for the Risk board game utilizing custom heuristics and Monte Carlo Tree Search (MCTS).}
+        \resumeItemListEnd
+    
+    \resumeProjectHeading
+      {\textbf{\href{https://github.com/roudy-h/football-app}{Football App}} $|$ \emph{HTML/CSS, JavaScript, Node.js, Express.js, Passport.js, React, Tailwind CSS}}{Mar 2024 -- Apr 2024}
+        \resumeItemListStart
+          \resumeItem{Built a full-stack platform fetching and caching external REST API football match results and live statistics.}
+          \resumeItem{Engineered a secure multi-user betting competition game utilizing Passport.js for session authentication.}
+        \resumeItemListEnd
+
+    \resumeProjectHeading
+      {\textbf{\href{https://github.com/Fisail/Botanicia}{Botanicia}} $|$ \emph{HTML/CSS, JavaScript, PHP, Symfony, MariaDB, Apache}}{Nov 2023 -- Jan 2024}
+        \resumeItemListStart
+          \resumeItem{Developed a full-stack e-commerce web application for gardening products with CRUD features and user authentication.}
+        \resumeItemListEnd
+  \resumeSubHeadingListEnd
+
+
+
+%
+%-----------PROGRAMMING SKILLS-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Languages}{: Java, Kotlin, Python, C/C++, SQL (Oracle, MariaDB), MongoDB, JavaScript, HTML/CSS, R} \\
+     \textbf{Frameworks}{: Spring Boot, Angular, React, Node.js, Flask, JUnit, WordPress, FastAPI} \\
+     \textbf{Developer Tools}{: Git, Docker, Kubernetes, Microsoft Azure, VS Code, Visual Studio, IntelliJ,} \\
+    }}
+ \end{itemize}
+
+
+%-------------------------------------------
+\end{document}
