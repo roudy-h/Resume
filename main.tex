@@ -14,18 +14,6 @@
 \input{glyphtounicode}
 \usepackage{ragged2e}
 
-%----------FONT OPTIONS----------
-% sans-serif
-% \usepackage[sfdefault]{FiraSans}
-% \usepackage[sfdefault]{roboto}
-% \usepackage[sfdefault]{noto-sans}
-% \usepackage[default]{sourcesanspro}
-
-% serif
-% \usepackage{CormorantGaramond}
-% \usepackage{charter}
-
-
 \pagestyle{fancy}
 \fancyhf{} % clear all header and footer fields
 \fancyfoot{}
@@ -47,8 +35,8 @@
 
 % Sections formatting
 \titleformat{\section}{
-  \vspace{-4pt}\scshape\raggedright\large
-}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+  \vspace{-6pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-4pt}]
 
 % Ensure that generate pdf is machine readable/ATS parsable
 \pdfgentounicode=1
@@ -62,35 +50,26 @@
 }
 
 \newcommand{\resumeSubheading}[4]{
-  \vspace{-2pt}\item
+  \vspace{-3pt}\item
     \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
       \textbf{#1} & #2 \\
       \textit{\small#3} & \textit{\small #4} \\
-    \end{tabular*}\vspace{-7pt}
-}
-
-\newcommand{\resumeSubSubheading}[2]{
-    \item
-    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
-      \textit{\small#1} & \textit{\small #2} \\
-    \end{tabular*}\vspace{-7pt}
+    \end{tabular*}\vspace{-6pt}
 }
 
 \newcommand{\resumeProjectHeading}[2]{
     \item
     \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
       \small#1 & #2 \\
-    \end{tabular*}\vspace{-7pt}
+    \end{tabular*}\vspace{-6pt}
 }
-
-\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
 
 \renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
 
 \newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
 \newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
 \newcommand{\resumeItemListStart}{\begin{itemize}}
-\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-4pt}}
 
 %-------------------------------------------
 %%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -99,11 +78,6 @@
 \begin{document}
 
 %----------HEADING----------
-% \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
-%   \textbf{\href{http://sourabhbajaj.com/}{\Large Sourabh Bajaj}} & Email : \href{mailto:sourabh@sourabhbajaj.com}{sourabh@sourabhbajaj.com}\\
-%   \href{http://sourabhbajaj.com/}{http://www.sourabhbajaj.com} & Mobile : +1-123-456-7890 \\
-% \end{tabular*}
-
 \begin{center}
     \textbf{\Huge \scshape Roudy Hajo} \\ \vspace{1pt}
     \small +33 7 67 42 56 59 $|$ \href{mailto:roudy.hajo2003@gmail.com}{\underline{roudy.hajo2003@gmail.com}} $|$ 
@@ -111,9 +85,8 @@
     \href{https://github.com/roudy-h}{\underline{github.com/roudy-h}}
 \end{center}
 
-% texte en justifié
 \begin{justify}
-    Final year Computer Science student at Polytech Nantes School of Engineering with a passion for software development, network and cloud computing. Experienced in developing full-stack web applications, REST APIs, and conducting research in Database Systems. Strong problem-solving skills and a proven track record of delivering high-quality projects.
+    \small{Final-year Computer Science Engineering student specializing in Networks, Cloud Computing, and Security at Polytech Nantes. Passionate about software development, distributed systems, and cloud infrastructure. Seeking a 6-month Software Engineer internship starting February 2027.}
 \end{justify}
 
 
@@ -122,10 +95,10 @@
   \resumeSubHeadingListStart
     \resumeSubheading
       {Polytech Nantes School of Engineering}{Nantes, France}
-      {Master's Degree in Computer Science specialization in Network, Security, Cloud Computing}{Sep. 2024 -- Aug 2027}
+      {Master's Degree in Computer Science (Networks, Security, Cloud Computing)}{Sep. 2024 -- Aug. 2027}
     \resumeSubheading
       {University Institute of Technology of Nantes}{Nantes, France}
-      {Technical Associate’s Degree in Computer Science}{Sep. 2022 -- Jun 2024}
+      {Technical Associate’s Degree in Computer Science}{Sep. 2022 -- Jun. 2024}
   \resumeSubHeadingListEnd
 
 
@@ -134,32 +107,32 @@
   \resumeSubHeadingListStart
 
     \resumeSubheading
-      {Research Intern in Database Systems}{May 2026 -- Aug 2026}
+      {Research Intern -- Distributed DBMS Indexing}{May 2026 -- Aug. 2026}
       {Coimbra Institute of Engineering}{Coimbra, Portugal}
       \resumeItemListStart
-        \resumeItem{Designed a decentralized multi-agent architecture utilizing Quantum Neural Networks (QNN) and reinforcement learning to optimize database index tuning.}
-        \resumeItem{Engineered an adaptive centralized learning router to eliminate workload skew and dynamically balance queries across replicas.}
+        \resumeItem{Designed a decentralized multi-agent QNN and reinforcement learning architecture to optimize database index tuning.}
+        \resumeItem{Engineered an adaptive centralized learning router to eliminate workload skew and balance queries across replicas.}
       \resumeItemListEnd
         
     \resumeSubheading
       {Web Developer Intern}{May 2025 -- July 2025}
-      {Nantes University -- Digital and Information Systems Department (DSIN)}{Nantes, France}
+      {Nantes University -- DSIN}{Nantes, France}
       \resumeItemListStart
-        \resumeItem{Updated and adapted the Symfony web application 'Syllabus' to dynamically present the university's course offerings to students.}
+        \resumeItem{Optimized the 'Syllabus' Symfony web application, refactoring core modules to dynamically present course offerings.}
       \resumeItemListEnd
 
     \resumeSubheading
-      {Web Developer Intern}{Apr 2024 -- June 2024}
+      {Web Developer Intern}{Apr. 2024 -- June 2024}
       {Kookline -- Web Development Agency}{Nantes, France}
       \resumeItemListStart
-        \resumeItem{Developed a responsive website using the WordPress Content Management System (CMS) for skydiving reservations and online services.}
-    \resumeItemListEnd
+        \resumeItem{Developed a custom WordPress web platform automating skydiving reservations and scheduling workflows.}
+      \resumeItemListEnd
 
     \resumeSubheading
-      {Academic Tutor}{Oct 2023 -- July 2024}
+      {Academic Tutor}{Oct. 2023 -- July 2024}
       {University Institute of Technology of Nantes}{Nantes, France}
       \resumeItemListStart
-        \resumeItem{Mentored and guided first-year students in fundamental computer science courses, focusing on algorithms, core programming principles, and mathematics.}
+        \resumeItem{Mentored 50+ first-year students in core computer science, focusing on algorithms, OOP, data structures, and mathematics.}
       \resumeItemListEnd
   \resumeSubHeadingListEnd
 
@@ -168,59 +141,63 @@
 \section{Projects}
   \resumeSubHeadingListStart
     \resumeProjectHeading
-      {\textbf{\href{https://github.com/roudy-h/todo-api}{TODO App}} $|$ \emph{Spring Boot, Java, Maven, Angular}}{Oct 2025 -- June 2026}
+      {\textbf{I2PoFM (Invisible Internet over FM)} $|$ \emph{Python, GNU Radio, I2P, SDR, Raspberry Pi}}{Feb. 2026 -- Mar. 2026}
         \resumeItemListStart
-          \resumeItem{Developed a responsive full-stack task management web application supporting secure CRUD operations.}
-          \resumeItem{Implemented dynamic client-side routing with Angular and engineered reactive RESTful APIs with Spring Boot.}
+          \resumeItem{Engineered a stealth communication system to multiplex encrypted IP traffic within standard FM radio broadcasts using GNU Radio, DSSS, and PCM techniques for complete signal inaudibility.}
+          \resumeItem{Integrated the decentralized I2P network layer onto Raspberry Pi hardware to route network packets covertly, achieving high data stealth, anonymity, and confidentiality.}
         \resumeItemListEnd
 
     \resumeProjectHeading
-      {\textbf{\href{https://oniris-polytech.univ-nantes.io/sketchoscent/}{SketchOscent}} $|$ \emph{HTML/CSS, JavaScript, jQuery, Webpack, Python, RDKit, PubChem}}{Sep 2025 -- May 2026}
+      {\textbf{\href{https://oniris-polytech.univ-nantes.io/sketchoscent/}{SketchOscent}} $|$ \emph{Python, Webpack, JavaScript, RDKit, PubChem}}{Sep. 2025 -- May 2026}
         \resumeItemListStart
-          \resumeItem{Enhanced a cheminformatics web application to model chemical odors as graphs and visualize molecular data.}
-          \resumeItem{Calculated and mapped chemical functional groups to specific scent profiles using Python, RDKit, and PubChem.}
+          \resumeItem{Enhanced a cheminformatics web application mapping chemical functional groups to specific scent profiles using Python.}
           \resumeItem{Integrated an automated code obfuscation pipeline into Webpack to effectively secure intellectual property.}
         \resumeItemListEnd
 
     \resumeProjectHeading
-      {\textbf{\href{https://github.com/roudy-h/dicewars}{Dice Wars}} $|$ \emph{C++}}{Nov 2025 -- Jan 2026}
-        \resumeItemListStart
-          \resumeItem{Engineered a turn-based strategy game featuring heuristic-driven AI opponents and a procedural map generation system.}
-        \resumeItemListEnd
-
-    \resumeProjectHeading
-      {\textbf{PolyRisk} $|$ \emph{Python}}{Oct 2025 -- Nov 2025}
+      {\textbf{PolyRisk} $|$ \emph{Python}}{Oct. 2025 -- Nov. 2025}
         \resumeItemListStart
           \resumeItem{Developed intelligent AI agents for the Risk board game utilizing custom heuristics and Monte Carlo Tree Search (MCTS).}
         \resumeItemListEnd
-    
+
     \resumeProjectHeading
-      {\textbf{\href{https://github.com/roudy-h/football-app}{Football App}} $|$ \emph{HTML/CSS, JavaScript, Node.js, Express.js, Passport.js, React, Tailwind CSS}}{Mar 2024 -- Apr 2024}
+      {\textbf{\href{https://github.com/roudy-h/dicewars}{Dice Wars}} $|$ \emph{C++}}{Nov. 2025 -- Jan. 2026}
         \resumeItemListStart
-          \resumeItem{Built a full-stack platform fetching and caching external REST API football match results and live statistics.}
-          \resumeItem{Engineered a secure multi-user betting competition game utilizing Passport.js for session authentication.}
+          \resumeItem{Engineered a turn-based strategy game featuring heuristic-driven AI opponents and procedural map generation.}
         \resumeItemListEnd
 
     \resumeProjectHeading
-      {\textbf{\href{https://github.com/Fisail/Botanicia}{Botanicia}} $|$ \emph{HTML/CSS, JavaScript, PHP, Symfony, MariaDB, Apache}}{Nov 2023 -- Jan 2024}
+      {\textbf{\href{https://github.com/syysy/ocean.s-26/tree/main/NDAROS}{NDAROS}} $|$ \emph{Python, Arduino, HTML/CSS, JavaScript}}{Feb. 2025 -- Mar. 2026}
         \resumeItemListStart
-          \resumeItem{Developed a full-stack e-commerce web application for gardening products with CRUD features and user authentication.}
+          \resumeItem{Designed an interactive physical model with real-time Arduino algorithms demonstrating cosmic energy production.}
+        \resumeItemListEnd
+
+    \resumeProjectHeading
+      {\textbf{\href{https://github.com/roudy-h/football-app}{Football App}} $|$ \emph{JS, Node.js, Express.js, Passport.js, React, Tailwind CSS}}{Mar 2024 -- Apr 2024}
+        \resumeItemListStart
+          \resumeItem{Built a full-stack platform with external REST API caching and an authenticated multi-user betting game.}
         \resumeItemListEnd
   \resumeSubHeadingListEnd
 
 
-
-%
 %-----------PROGRAMMING SKILLS-----------
 \section{Technical Skills}
  \begin{itemize}[leftmargin=0.15in, label={}]
     \small{\item{
-     \textbf{Languages}{: Java, Kotlin, Python, C/C++, SQL (Oracle, MariaDB), MongoDB, JavaScript, HTML/CSS, R} \\
-     \textbf{Frameworks}{: Spring Boot, Angular, React, Node.js, Flask, JUnit, WordPress, FastAPI} \\
-     \textbf{Developer Tools}{: Git, Docker, Kubernetes, Microsoft Azure, VS Code, Visual Studio, IntelliJ,} \\
-    }}
+     \textbf{Languages}{: Go, Java, Kotlin, Python, C/C++, SQL (Oracle, MariaDB), MongoDB, HTML/CSS, JavaScript, R} \\
+     \textbf{Frameworks}{: Spring Boot, Angular, React, Node.js, Express.js, Symfony, Flask, JUnit} \\
+     \textbf{Developer Tools}{: Git, Docker, Kubernetes, Microsoft Azure, VS Code, Visual Studio, IntelliJ} \\
+     \textbf{Languages Spoken}{: French (Native), English (Professional Working Proficiency), Arabic (Fluent), Kurdish (Native), German (A1)}
+     }}
  \end{itemize}
 
 
-%-------------------------------------------
+%-----------INTERESTS-----------
+\section{Interests}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Hobbies \& Activities}{: Futsal, Board games, Open-Source Innovation, Traveling, Reading, Global current events}
+    }}
+ \end{itemize}
+
 \end{document}
